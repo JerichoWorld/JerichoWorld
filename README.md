@@ -60,28 +60,6 @@ Where `state` and `next_state` are two subsequent states with `act` being the co
       "(((4, 81),), (), ())": "north",
       "(((4, 74),), ((74, 3),), ())": "east"
     },
-    "prev_graph": [
-      [
-        "you",
-        "have",
-        "jewel-encrusted egg"
-      ],
-      [
-        "North House",
-        "south",
-        "Forest Path"
-      ],
-      [
-        "you",
-        "in",
-        "North House"
-      ],
-      [
-        "golden clockwork canary",
-        "in",
-        "jewel-encrusted egg"
-      ]
-    ],
     "graph": [
       [
         "you",
