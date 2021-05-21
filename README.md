@@ -1,6 +1,6 @@
 # JerichoWorld Dataset
 
-Dataset corresponding to the paper Modeling Worlds in Text.
+Dataset corresponding to the paper Modeling Worlds in Text found here https://openreview.net/forum?id=Y1YtS9MZA75.
 
 ## Dataset Organization
 * ```data/train.json```: The main dataset file containing a list of training examples.
