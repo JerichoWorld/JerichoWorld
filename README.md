@@ -33,6 +33,9 @@ Where `state` and `next_state` are two subsequent states with `act` being the co
         "egg"
       ]
     },
+    "inv_attrs": {
+      "egg": []
+    },
     "location": {
       "name": "Behind House",
       "num": 79
@@ -49,6 +52,11 @@ Where `state` and `next_state` are two subsequent states with `act` being the co
       "There's nothing special about the way.": [
         "path"
       ]
+    },
+    "surrounding_attrs": {
+      "window": [],
+      "house": [],
+      "path": []
     },
     "state": "saves/f461488f-3085-4f5a-ac2f-bd424561e8c6.pkl",
     "valid_acts": {
@@ -93,7 +101,9 @@ Each example defines the following fields:
 * **loc_desc**: Text returned by *look* command from current location.
 * **inv_desc**: Text returned by *inventory* command from current step.
 * **inv_objs**: Dictionary of ```{obj_description : [obj_names]}``` containing detected objects in the player's inventory.
+* **inv_attrs**: Dictionary of ```{obj_name : [obj_attrs]}``` containing detected objects' attributes in the player's inventory.
 * **surrounding_objs**: Dictionary of ```{obj_description : [obj_names]}``` containing detected objects in the player's immediate surroundings.
+* **surrounding_attrs**: Dictionary of ```{obj_name : [obj_attrs]}``` containing detected objects' attributes in the player's immediate surroundings.
 * **score**: Current game score at this step.
 * **location**: Name and number for the world-object corresponding to the player's current location.
 * **state**: Path to pickle file containing saved game state.
